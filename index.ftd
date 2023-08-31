@@ -110,7 +110,7 @@ src: $hero-right-hug.secondary-cta-icon
 
 -- ftd.column:
 width.fixed.percent: 50
-height.fixed.px: 480
+height.fixed.px: 400
 width if { ftd.device == "mobile" }: fill-container
 align-self: center
 margin-vertical.px if { ftd.device == "mobile" }: 30
@@ -201,7 +201,7 @@ src: $hero-right-hug-large.secondary-cta-icon
 
 -- ftd.column:
 width.fixed.percent: 50
-height.fixed.px: 400
+height.fixed.px: 480
 width if { ftd.device == "mobile" }: fill-container
 align-self: center
 margin-vertical.px if { ftd.device == "mobile" }: 30
