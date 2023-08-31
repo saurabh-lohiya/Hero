@@ -1,9 +1,12 @@
 -- import: fastn
 -- import: fastn-community.github.io/footer
 -- import: fastn-community.github.io/roboto-typography as typo
--- import: doc-site/common
--- import: doc-site
+-- import: fastn-community.github.io/doc-site/common
+-- import: fastn-community.github.io/doc-site/
 export: markdown,h0,h1,h2,h3,code,rendered,output,image,iframe,youtube,compact-text,post,posts,featured-post,image-first,image-in-between,without-image,author-bio,tip,not-found-1,not-found-2,link,link-group
+
+-- import: saurabh-lohiya.github.io/hero-components/
+export: hero-right-hug, hero-right-hug-large, hero-right-hug-search, hero-bottom-hug, hero-right-hug-expanded-search, hero-left-hug-expanded-search, hero-left-hug-expanded, hero-bottom-hug-search, hero-right-hug-expanded, hero-right-hug-search-label
 
 -- common.site-logo site-logo: $assets.files.assets.ipsum-logo.svg
 
@@ -31,12 +34,11 @@ ftd.ui list banner:
 fastn.app-ui apps: $common.apps
 boolean login-button: $common.login-button
 string site-url: $common.site-url
-optional ftd.raw-image-src favicon:
 
 -- ftd.ui list page.footer:
 
 -- footer.fastn-footer:
-copyright: Copyright © 2023 - <user_name>.github.io/<repo_name>
+copyright: Copyright © 2023 - saurabh-lohiya.github.io/hero-components
 site-logo: $common.fastn-logo
 powered-by-text: Powered by
 powered-by-link: https://fastn.com/
@@ -66,7 +68,6 @@ document-image: $page.document-image
 apps: $page.apps
 login-button: $page.login-button
 site-url: $page.site-url
-favicon: $page.favicon
 
 -- ftd.column:
 spacing.fixed.em: 0.8
