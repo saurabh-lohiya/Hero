@@ -6,10 +6,10 @@
 
 
 -- site-doc.doc-home: Hero
-current-package: saurabh-lohiya.github.io/hero-components
+current-package: saurabh-lohiya.github.io/hero
 show-tabs: false
 site-title: Hero
-github-url: https://github.com/saurabh-lohiya/hero-components
+github-url: https://github.com/saurabh-lohiya/hero
 
 -- site-doc.output:
 colors: $ftd.default-colors
@@ -34,7 +34,7 @@ file:
 -- cb.code:
 lang: ftd
 
-\-- fastn.dependency: saurabh-lohiya.github.io/hero-components
+\-- fastn.dependency: saurabh-lohiya.github.io/hero
 
 -- end: site-doc.output
 
